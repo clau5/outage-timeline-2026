@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cyber attacks &amp; outages: Aug 17 – Nov 17, 2026</title>
+<meta name="description" content="Interactive timeline of %%N%% verified cyber attacks, outages and service disruptions, Aug 17 – Nov 17, 2026, by stated cause and severity.">
+<style>
+:root{--bg:#fff;--fg:#14171a;--muted:#5b6670;--line:#e3e7eb;--card:#f7f9fa;--a:#2f6fed;--e:#e0a100;--m:#12a5b8;--u:#9aa3ab;--link:#1f5fd6}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1214;--fg:#e8ecef;--muted:#9aa5ae;--line:#2a3036;--card:#171b1f;--link:#7fa8ff;--u:#6f7880}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:1200px;margin:0 auto;padding:24px 16px 48px}h1{font-size:1.8rem;margin:.2em 0}h2{font-size:1.25rem;margin:2.2em 0 .6em;padding-top:.4em;border-top:1px solid var(--line)}
+.lead{color:var(--muted);max-width:820px}a{color:var(--link)}nav.toc{display:flex;flex-wrap:wrap;gap:6px 14px;margin:14px 0;font-size:.9rem}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:16px 0}.metric{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}.metric b{display:block;font-size:1.6rem}.metric span{color:var(--muted);font-size:.85rem}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0}.seg button{border:1px solid var(--line);background:var(--card);color:var(--fg);padding:6px 10px;border-radius:999px;cursor:pointer;font:inherit;font-size:.85rem;margin:2px}.seg button.on{background:var(--fg);color:var(--bg)}
+select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--fg)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;overflow-x:auto}.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:.85rem;color:var(--muted);margin:6px 0}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:middle}
+#detail{margin-top:10px;font-size:.92rem}#detail dt{color:var(--muted);float:left;width:120px;clear:left}#detail dd{margin:0 0 4px 125px}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}table{border-collapse:collapse;width:100%;font-size:.9rem}th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:var(--card);position:sticky;top:0;cursor:pointer;white-space:nowrap}td.num{text-align:right;font-weight:600}.nw{white-space:nowrap}.sev4{color:#c77700}.sev5{color:#d33}
+.pill{font-size:.78rem;padding:2px 8px;border-radius:999px;white-space:nowrap;color:#fff}.c-attack{background:var(--a)}.c-spooferror{background:var(--e);color:#222}.c-maintenance{background:var(--m)}.c-unknown{background:var(--u)}.flag{color:#d33;cursor:help}
+.yoy td:not(:first-child),.yoy th:not(:first-child){text-align:right}ul.spike li,ul.flags li{margin:6px 0}.note{color:var(--muted);font-size:.88rem}
+footer{margin-top:40px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+@media (max-width:600px){#tl,#wk,#te{min-width:760px}#detail dt{float:none;width:auto}#detail dd{margin-left:0}h1{font-size:1.45rem}}
+</style>
+</head>
+<body><main>
+<h1>Cyber attacks &amp; outages: Aug 17 – Nov 17, 2026</h1>
+<p class="lead">%%N%% verified incidents over three months, by officially stated cause and severity. About half are attacks. The incidents that stopped daily life (Outlook, US airspace, UK banks, Chase, Apple) were technical failures, not hacks, by every official account so far. Like-for-like measures show more incidents than a year ago.</p>
+<nav class="toc"><a href="#timeline">Timeline</a><a href="#table">All incidents</a><a href="#weekly">Weekly frequency</a><a href="#yoy">Year over year</a><a href="#spike">November spike</a><a href="#flags">Disputed causes</a><a href="#starter">Starter list</a><a href="#method">Method</a></nav>
+<div class="metrics">
+<div class="metric"><b>%%N%%</b><span>verified incidents, Aug 17 – Nov 17</span></div>
+<div class="metric"><b>46</b><span>stated cause: attack (21 unknown, 14 error, 6 maintenance)</span></div>
+<div class="metric"><b>14</b><span>in Nov 12–17 alone: 16% of incidents in 7% of the window</span></div>
+<div class="metric"><b>+48%</b><span>ransomware victims, Aug–Oct 2026 vs 2025</span></div>
+</div>
+
+<h2 id="timeline">Timeline</h2>
+<div class="controls"><div class="seg" id="causeSeg"></div><label>Sector <select id="sectorSel"></select></label></div>
+<div class="legend"><span><i class="dot" style="background:var(--a)"></i>Attack</span><span><i class="dot" style="background:var(--e)"></i>Spoof-Error</span><span><i class="dot" style="background:var(--m)"></i>Maintenance</span><span><i class="dot" style="background:var(--u)"></i>Unknown</span><span>Dot size = severity 1–5 · shaded band = Nov 12–17 · tap a dot for details</span></div>
+<div class="card"><svg id="tl" viewBox="0 0 1200 300" width="100%" role="img" aria-label="Incident timeline"></svg><dl id="detail"></dl></div>
+
+<h2 id="table">All incidents</h2>
+<p class="note">Uses the same filters as the timeline. Click a column header to sort. ⚑ marks a disputed, unconfirmed or thin official cause.</p>
+<div class="tablewrap"><table id="tbl"><thead><tr><th data-k="date">Date</th><th data-k="org">Organization</th><th>Incident</th><th data-k="cause">Stated cause</th><th data-k="sev">Sev</th><th>Source</th></tr></thead><tbody>
+%%ROWS%%
+</tbody></table></div>
+<p class="note" id="count"></p>
+
+<h2 id="weekly">Weekly frequency</h2>
+<p class="note">Count per ISO week in this dataset, by stated cause (follows the sector filter). W47 covers only Nov 16–17. Counts reflect news prominence as well as frequency.</p>
+<div class="card"><svg id="wk" viewBox="0 0 1200 320" width="100%" role="img" aria-label="Weekly incidents stacked by cause"></svg></div>
+
+<h2 id="yoy">Year over year: mid-Aug to mid-Nov, 2025 vs 2026</h2>
+<div class="card"><svg id="te" viewBox="0 0 1200 300" width="100%" role="img" aria-label="ThousandEyes weekly outage events 2025 vs 2026"></svg><div class="legend"><span><i class="dot" style="background:var(--a)"></i>2026</span><span><i class="dot" style="background:var(--u)"></i>2025</span><span>ThousandEyes global network outage events per week</span></div></div>
+<div class="tablewrap" style="margin-top:12px"><table class="yoy"><thead><tr><th>Same source, both years</th><th>2025</th><th>2026</th><th>Change</th></tr></thead><tbody>
+<tr><td>ThousandEyes global network outage events, 13 weeks mid-Aug to mid-Nov (<a href="https://www.networkworld.com/article/4113326/2026-network-outage-report-and-internet-health-check.html">2026</a>, <a href="https://www.networkworld.com/article/3630303/2025-global-network-outage-report-and-internet-health-check.html">2025</a>)</td><td>2,751</td><td>6,428</td><td>+134%</td></tr>
+<tr><td>Ransomware leak-site victims, Aug–Oct (<a href="https://www.breachsense.com/ransomware-reports/october-2026/">Breachsense</a>, <a href="https://www.breachsense.com/ransomware-reports/annual-report-2025/">2025 report</a>)</td><td>1,831</td><td>2,706</td><td>+48%</td></tr>
+<tr><td>GitHub incidents in its <a href="https://github.blog/tag/github-availability-report/">monthly availability reports</a>, Aug–Oct</td><td>10</td><td>15</td><td>+50%</td></tr>
+<tr><td>Ransomware victims, full 2025 vs Jan–Oct 2026 (Breachsense)</td><td>7,307</td><td>7,807</td><td>passed in October</td></tr>
+</tbody></table></div>
+<p>Yes, incidents are more frequent: every like-for-like measure found is up, from about half again (ransomware, GitHub) to more than double (network outage events).</p>
+<p class="note">Caveats: ThousandEyes's monitoring coverage grows over time. Leak-site counts include unverified claims and miss victims who paid. Reporting and Downdetector use rise after big outages. ThousandEyes counts for Nov 2–15, 2026 were below the Aug–Sep 2026 peaks, so the November cluster was not a jump in the base rate.</p>
+
+<h2 id="spike">The November spike (Nov 12–17)</h2>
+<ul class="spike">
+<li><b>Nov 12:</b> Microsoft 365 global outage, about 24h. Cause: a latent July gateway bug triggered by Teams failover load (error).</li>
+<li><b>Nov 13:</b> FAA nationwide ground stop, about 12,462 cancellations. Router work by contractor L3Harris flooded the FAA network (maintenance/upgrade). Workday's HR platform also went down.</li>
+<li><b>Nov 15:</b> AWS us-east-1 failures for 3h (sign-up, IAM Identity Center, load balancers). No root cause published.</li>
+<li><b>Nov 16:</b> Chase software bug and a United IT outage, both non-malicious. Optimizely and Infoblox were real attacks.</li>
+<li><b>Nov 17:</b> NSANet ("routine maintenance") and Apple ("internal update") went down, plus the National Weather Service, Marriott and a Salesforce outage on three US instances.</li>
+</ul>
+<p>Fourteen of the %%N%% incidents, including two of the three severity-5 events, landed in six days. Officials and researchers see no sign of coordination: DHS, NBC's sources, SentinelOne, Unit 42 and academics at Notre Dame and Virginia Tech all point to routine changes in highly concentrated, tightly coupled systems. Lawmakers have asked for briefings because several explanations are still one-liners.</p>
+
+<h2 id="flags">Suspicious or disputed official causes</h2>
+<ul class="flags">
+%%FLAGS%%
+<li><b>Telefónica "ransomware" story (dated Nov 15, 2026):</b> excluded. It is a recycled, AI-illustrated retelling of the May 2017 WannaCry incident, with no 2026 corroboration.</li>
+</ul>
+
+<h2 id="starter">Commonly reported incidents, verified</h2>
+<div class="tablewrap"><table><thead><tr><th>Claim</th><th>Verdict</th><th>What actually happened</th></tr></thead><tbody>
+<tr><td>Optimizely hacked</td><td>Verified · attack</td><td>Nov 16: a signup flaw let an attacker plant a card skimmer, crypto-address swapper and iOS exploit loader on 178 organisations' sites for about 19h. Optimizely confirmed it Nov 17.</td></tr>
+<tr><td>Revolut / UK banks down</td><td>Verified · Oct 20</td><td>A power event at Google Cloud London (europe-west2-b) took down Revolut, Lloyds group and HSBC. Revolut's Nov 13 post-mortem cites degraded failover quorum servers. No UK bank outage was found in November.</td></tr>
+<tr><td>NSA down (Nov 17)</td><td>Verified · not the website</td><td>The classified NSANet degraded during "scheduled routine maintenance". nsa.gov stayed up, with no indication of an attack.</td></tr>
+<tr><td>US flights grounded</td><td>Verified · Nov 13</td><td>FAA ground stop from about 15:30 to 20:15 ET after a router install flooded its network. DHS found no evidence of a cyberattack. United had a separate outage on Nov 16.</td></tr>
+<tr><td>Outlook down</td><td>Verified · Nov 12–13</td><td>Global Microsoft 365 outage of about 24h from a latent bug. An earlier Exchange outage hit on Aug 31.</td></tr>
+<tr><td>Salesforce outage</td><td>Verified · Sep 16 and Nov 17</td><td>Sep 16: a global outage of about 7.5h during Dreamforce. Nov 17: a 5h49m outage on three US instances.</td></tr>
+</tbody></table></div>
+
+<h2 id="method">Method and limits</h2>
+<ul>
+<li>Window: Aug 17 – Nov 17, 2026. Sources: vendor status pages and post-incident reviews (Azure, Google Cloud, GitHub, Salesforce, Cloudflare, NATS, FAA, Revolut), major outlets (BBC, Guardian, Reuters, AP, CNBC, BleepingComputer, The Record, TechCrunch, SecurityWeek), CM-Alliance and SOCRadar monthly roundups, ThousandEyes weekly reports, and X news summaries as a cross-check.</li>
+<li>Cause labels follow the officially stated cause. <b>Attack</b>: a malicious actor confirmed or credibly claimed. <b>Spoof-Error</b>: config error, bad deploy, software defect, human error, hardware or power fault, or false reports. <b>Maintenance</b>: the official cause is planned maintenance or upgrade work. <b>Unknown</b>: no cause published or confirmed, never a default to attack.</li>
+<li>Severity is an editorial 1–5 judgement: users affected, duration, money, data exposed. Five means catastrophic or global.</li>
+<li>This is a curated list of notable, citable incidents. Thousands of minor status-page blips and individual ransomware leak-site claims are counted only in aggregate, in the year-over-year section.</li>
+<li>Every source link was checked and none returned 404. Some outlets (AP, Reuters, NSA, Revolut and a few local sites) block automated clients but load in a browser.</li>
+<li>Raw data: <a href="data.json">data.json</a>.</li>
+</ul>
+<footer>Last updated Nov 17, 2026. Causes are as officially stated by the affected organisations or authorities at the time of writing and may change as investigations conclude. Not affiliated with any organisation listed.</footer>
+</main>
+<script id="data" type="application/json">%%DATA%%</script>
+<script>
+(function(){
+const D=JSON.parse(document.getElementById('data').textContent);
+const C=['Attack','Spoof-Error','Maintenance','Unknown'];
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const col=c=>css({Attack:'--a','Spoof-Error':'--e',Maintenance:'--m',Unknown:'--u'}[c]);
+const S0=Date.UTC(2026,7,17),DAY=864e5,SPAN=93;
+const di=d=>{const[y,m,dd]=d.split('-').map(Number);return Math.round((Date.UTC(y,m-1,dd)-S0)/DAY)};
+const M=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const fd=d=>{const[,m,dd]=d.split('-');return M[+m-1]+' '+(+dd)};
+const NS='http://www.w3.org/2000/svg';
+const el=(t,a,txt)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(txt!=null)e.textContent=txt;return e};
+let cause='all',sector='all',picked=D.findIndex(r=>r.org.startsWith('FAA'));
+const sectors=[...new Set(D.map(r=>r.sector))].sort();
+const sel=document.getElementById('sectorSel');
+sel.innerHTML='<option value="all">All sectors</option>'+sectors.map(s=>`<option>${s}</option>`).join('');
+sel.onchange=()=>{sector=sel.value;render()};
+const seg=document.getElementById('causeSeg');
+function drawSeg(){const base=D.filter(r=>sector==='all'||r.sector===sector);
+ seg.innerHTML='';[['all','All causes',base.length],...C.map(c=>[c,c,base.filter(r=>r.cause===c).length])].forEach(([v,l,n])=>{const b=document.createElement('button');b.textContent=`${l} (${n})`;if(v===cause)b.className='on';b.onclick=()=>{cause=v;render()};seg.appendChild(b)})}
+const vis=r=>(cause==='all'||r.cause===cause)&&(sector==='all'||r.sector===sector);
+function timeline(){const s=document.getElementById('tl');s.innerHTML='';const W=1200,L=110,R=20,T=16,LH=62;const x=d=>L+di(d)/SPAN*(W-L-R);
+ const fg=css('--muted'),line=css('--line');
+ const x1=x('2026-11-12')-6,x2=x('2026-11-17')+8;s.appendChild(el('rect',{x:x1,y:T-6,width:x2-x1,height:LH*4+8,fill:line,opacity:.6,rx:6}));
+ C.forEach((c,i)=>{const y=T+i*LH+LH/2;s.appendChild(el('line',{x1:L,x2:W-R,y1:y,y2:y,stroke:line}));s.appendChild(el('text',{x:6,y:y+4,'font-size':13,fill:fg},c))});
+ ['2026-08-17','2026-09-07','2026-09-28','2026-10-19','2026-11-09','2026-11-17'].forEach(t=>{s.appendChild(el('line',{x1:x(t),x2:x(t),y1:T-6,y2:T+LH*4,stroke:line,'stroke-dasharray':'2 4'}));s.appendChild(el('text',{x:x(t),y:290,'font-size':12,'text-anchor':'middle',fill:fg},fd(t)))});
+ const st={};D.forEach((r,i)=>{if(!vis(r))return;const k=r.date+r.cause,n=st[k]||0;st[k]=n+1;const off=n===0?0:(n%2?-1:1)*Math.ceil(n/2)*11;
+  const c=el('circle',{cx:x(r.date),cy:T+C.indexOf(r.cause)*LH+LH/2+off,r:2+r.severity*2.2,fill:col(r.cause),'fill-opacity':i===picked?1:.8,stroke:i===picked?css('--fg'):css('--bg'),'stroke-width':i===picked?2.5:1,style:'cursor:pointer'});
+  c.appendChild(el('title',{},`${fd(r.date)} · ${r.org} · ${r.cause} · severity ${r.severity}`));c.onclick=()=>{picked=i;timeline();detail()};s.appendChild(c)})}
+function detail(){const r=D[picked],d=document.getElementById('detail');if(!r){d.innerHTML='';return}
+ const e=t=>t.replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+ d.innerHTML=`<dt>Incident</dt><dd><b>${fd(r.date)} · ${e(r.org)}</b></dd><dt>What happened</dt><dd>${e(r.incident)}</dd><dt>Stated cause</dt><dd>${r.cause}</dd><dt>Severity</dt><dd>${r.severity} of 5 · ${e(r.severity_note)}</dd><dt>Sector</dt><dd>${e(r.sector)}</dd>${r.flag?`<dt>Flag</dt><dd>⚑ ${e(r.flag)}</dd>`:''}<dt>Source</dt><dd><a href="${e(r.source)}" target="_blank" rel="noopener">${e(new URL(r.source).hostname.replace('www.',''))}</a></dd>`}
+function table(){let n=0;document.querySelectorAll('#tbl tbody tr').forEach(tr=>{const ok=(cause==='all'||tr.dataset.cause===cause)&&(sector==='all'||tr.dataset.sector===sector);tr.style.display=ok?'':'none';if(ok)n++});document.getElementById('count').textContent=`Showing ${n} of ${D.length} incidents.`}
+let sk='date',sd=1;document.querySelectorAll('#tbl th[data-k]').forEach(th=>th.onclick=()=>{const k=th.dataset.k;sd=(sk===k)?-sd:(k==='sev'?-1:1);sk=k;const tb=document.querySelector('#tbl tbody');
+ const rows=[...tb.rows];const v=tr=>k==='sev'?+tr.dataset.sev:k==='date'?tr.dataset.date:k==='cause'?tr.dataset.cause:tr.cells[1].textContent.toLowerCase();
+ rows.sort((a,b)=>{const p=v(a),q=v(b);return (p>q?1:p<q?-1:a.dataset.date.localeCompare(b.dataset.date))*sd});rows.forEach(r=>tb.appendChild(r))});
+function weekly(){const s=document.getElementById('wk');s.innerHTML='';const W=1200,L=40,R=10,T=14,B=40,H=320;const labels=['Aug 17','Aug 24','Aug 31','Sep 7','Sep 14','Sep 21','Sep 28','Oct 5','Oct 12','Oct 19','Oct 26','Nov 2','Nov 9','Nov 16*'];
+ const v=labels.map((_,w)=>C.map(c=>D.filter(r=>Math.floor(di(r.date)/7)===w&&r.cause===c&&(sector==='all'||r.sector===sector)).length));
+ const max=Math.max(4,...v.map(a=>a.reduce((p,q)=>p+q,0)));const ch=H-T-B,bw=(W-L-R)/labels.length,fg=css('--muted'),line=css('--line');
+ for(let g=0;g<=max;g+=Math.ceil(max/5)){const y=T+ch-g/max*ch;s.appendChild(el('line',{x1:L,x2:W-R,y1:y,y2:y,stroke:line}));s.appendChild(el('text',{x:L-6,y:y+4,'font-size':12,'text-anchor':'end',fill:fg},g))}
+ v.forEach((a,w)=>{let y=T+ch;a.forEach((n,ci)=>{if(!n)return;const h=n/max*ch;y-=h;const r=el('rect',{x:L+w*bw+bw*.18,y:y,width:bw*.64,height:h,fill:col(C[ci])});r.appendChild(el('title',{},`${labels[w]}: ${n} ${C[ci]}`));s.appendChild(r)});
+  const tot=a.reduce((p,q)=>p+q,0);s.appendChild(el('text',{x:L+w*bw+bw/2,y:y-4,'font-size':12,'text-anchor':'middle',fill:fg},tot||''));s.appendChild(el('text',{x:L+w*bw+bw/2,y:H-B+18,'font-size':11,'text-anchor':'middle',fill:fg},labels[w]))})}
+function te(){const s=document.getElementById('te');s.innerHTML='';const a=[534,649,687,539,531,559,303,310,387,459,601,450,419],b=[260,260,308,301,302,305,226,185,107,199,96,74,128];
+ const W=1200,L=44,R=16,T=12,H=300,B=34,ch=H-T-B,max=700,x=i=>L+i*(W-L-R)/12,y=v=>T+ch-v/max*ch,fg=css('--muted'),line=css('--line');
+ [0,175,350,525,700].forEach(g=>{s.appendChild(el('line',{x1:L,x2:W-R,y1:y(g),y2:y(g),stroke:line}));s.appendChild(el('text',{x:L-6,y:y(g)+4,'font-size':12,'text-anchor':'end',fill:fg},g))});
+ ['mid-Aug','early Sep','late Sep','mid-Oct','early Nov','mid-Nov'].forEach((t,k)=>{const i=[0,3,6,8,11,12][k];s.appendChild(el('text',{x:x(i),y:H-10,'font-size':12,'text-anchor':'middle',fill:fg},t))});
+ [[b,col('Unknown'),'6 5'],[a,col('Attack'),'']].forEach(([v,c,da])=>{s.appendChild(el('polyline',{points:v.map((n,i)=>x(i)+','+y(n)).join(' '),fill:'none',stroke:c,'stroke-width':2.5,'stroke-dasharray':da}));v.forEach((n,i)=>{const p=el('circle',{cx:x(i),cy:y(n),r:3.5,fill:c});p.appendChild(el('title',{},String(n)));s.appendChild(p)})})}
+function render(){drawSeg();timeline();detail();table();weekly()}
+render();te();
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>{render();te()});
+})();
+</script>
+</body></html>
