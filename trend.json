@@ -1,0 +1,227 @@
+[
+ {
+  "month": "2024-11",
+  "ransomware": 490,
+  "kev": 22,
+  "cves": 4086,
+  "te_avg_week": 202,
+  "te_cov": 30,
+  "days": 30
+ },
+ {
+  "month": "2024-12",
+  "ransomware": 594,
+  "kev": 16,
+  "cves": 3448,
+  "te_avg_week": 165,
+  "te_cov": 31,
+  "days": 31
+ },
+ {
+  "month": "2025-01",
+  "ransomware": 535,
+  "kev": 14,
+  "cves": 4415,
+  "te_avg_week": 307,
+  "te_cov": 31,
+  "days": 31
+ },
+ {
+  "month": "2025-02",
+  "ransomware": 878,
+  "kev": 27,
+  "cves": 3831,
+  "te_avg_week": 390,
+  "te_cov": 28,
+  "days": 28
+ },
+ {
+  "month": "2025-03",
+  "ransomware": 743,
+  "kev": 32,
+  "cves": 4166,
+  "te_avg_week": 492,
+  "te_cov": 31,
+  "days": 31
+ },
+ {
+  "month": "2025-04",
+  "ransomware": 511,
+  "kev": 15,
+  "cves": 4142,
+  "te_avg_week": 409,
+  "te_cov": 30,
+  "days": 30
+ },
+ {
+  "month": "2025-05",
+  "ransomware": 363,
+  "kev": 24,
+  "cves": 4264,
+  "te_avg_week": 423,
+  "te_cov": 31,
+  "days": 31
+ },
+ {
+  "month": "2025-06",
+  "ransomware": 440,
+  "kev": 20,
+  "cves": 3799,
+  "te_avg_week": 279,
+  "te_cov": 30,
+  "days": 30
+ },
+ {
+  "month": "2025-07",
+  "ransomware": 509,
+  "kev": 20,
+  "cves": 3933,
+  "te_avg_week": 171,
+  "te_cov": 31,
+  "days": 31
+ },
+ {
+  "month": "2025-08",
+  "ransomware": 487,
+  "kev": 15,
+  "cves": 3737,
+  "te_avg_week": 259,
+  "te_cov": 31,
+  "days": 31
+ },
+ {
+  "month": "2025-09",
+  "ransomware": 583,
+  "kev": 16,
+  "cves": 4537,
+  "te_avg_week": 299,
+  "te_cov": 30,
+  "days": 30
+ },
+ {
+  "month": "2025-10",
+  "ransomware": 761,
+  "kev": 31,
+  "cves": 4389,
+  "te_avg_week": 163,
+  "te_cov": 31,
+  "days": 31
+ },
+ {
+  "month": "2025-11",
+  "ransomware": 679,
+  "kev": 11,
+  "cves": 3116,
+  "te_avg_week": 102,
+  "te_cov": 30,
+  "days": 30
+ },
+ {
+  "month": "2025-12",
+  "ransomware": 777,
+  "kev": 20,
+  "cves": 5643,
+  "te_avg_week": 256,
+  "te_cov": 25,
+  "days": 31
+ },
+ {
+  "month": "2026-01",
+  "ransomware": 677,
+  "kev": 17,
+  "cves": 5143,
+  "te_avg_week": 260,
+  "te_cov": 31,
+  "days": 31
+ },
+ {
+  "month": "2026-02",
+  "ransomware": 680,
+  "kev": 28,
+  "cves": 4808,
+  "te_avg_week": 284,
+  "te_cov": 28,
+  "days": 28
+ },
+ {
+  "month": "2026-03",
+  "ransomware": 808,
+  "kev": 26,
+  "cves": 6304,
+  "te_avg_week": 289,
+  "te_cov": 31,
+  "days": 31
+ },
+ {
+  "month": "2026-04",
+  "ransomware": 772,
+  "kev": 31,
+  "cves": 5885,
+  "te_avg_week": 258,
+  "te_cov": 30,
+  "days": 30
+ },
+ {
+  "month": "2026-05",
+  "ransomware": 646,
+  "kev": 21,
+  "cves": 6985,
+  "te_avg_week": 328,
+  "te_cov": 31,
+  "days": 31
+ },
+ {
+  "month": "2026-06",
+  "ransomware": 707,
+  "kev": 23,
+  "cves": 8001,
+  "te_avg_week": 480,
+  "te_cov": 30,
+  "days": 30
+ },
+ {
+  "month": "2026-07",
+  "ransomware": 811,
+  "kev": 26,
+  "cves": 9919,
+  "te_avg_week": 542,
+  "te_cov": 31,
+  "days": 31
+ },
+ {
+  "month": "2026-08",
+  "ransomware": 964,
+  "kev": 31,
+  "cves": 12719,
+  "te_avg_week": 565,
+  "te_cov": 31,
+  "days": 31
+ },
+ {
+  "month": "2026-09",
+  "ransomware": 789,
+  "kev": 43,
+  "cves": 15074,
+  "te_avg_week": 535,
+  "te_cov": 30,
+  "days": 30
+ },
+ {
+  "month": "2026-10",
+  "ransomware": 953,
+  "kev": 36,
+  "cves": 17481,
+  "te_avg_week": 426,
+  "te_cov": 31,
+  "days": 31
+ },
+ {
+  "month": "2026-11",
+  "ransomware": null,
+  "kev": 16,
+  "cves": 9004,
+  "te_avg_week": 434,
+  "te_cov": 14,
+  "days": 30
+ }
+]

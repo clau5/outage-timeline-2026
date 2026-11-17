@@ -23,17 +23,6 @@
  },
  {
   "date": "2026-08-21",
-  "org": "Arelion (Tier-1 transit)",
-  "sector": "Telecom",
-  "incident": "Transit outage hit customers in 30 countries for 1h21m",
-  "cause": "Unknown",
-  "severity": 2,
-  "severity_note": "Short, global but partial",
-  "source": "https://www.networkworld.com/article/4113326/2026-network-outage-report-and-internet-health-check.html",
-  "flag": ""
- },
- {
-  "date": "2026-08-21",
   "org": "Apollo Global Management",
   "sector": "Banking & finance",
   "incident": "Private-equity firm confirms data breach amid wave hitting financial firms",
@@ -41,6 +30,17 @@
   "severity": 2,
   "severity_note": "Corporate data, limited public impact",
   "source": "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-in-august-2026",
+  "flag": ""
+ },
+ {
+  "date": "2026-08-21",
+  "org": "Arelion (Tier-1 transit)",
+  "sector": "Telecom",
+  "incident": "Transit outage hit customers in 30 countries for 1h21m",
+  "cause": "Unknown",
+  "severity": 2,
+  "severity_note": "Short, global but partial",
+  "source": "https://www.networkworld.com/article/4113326/2026-network-outage-report-and-internet-health-check.html",
   "flag": ""
  },
  {
@@ -67,17 +67,6 @@
  },
  {
   "date": "2026-08-26",
-  "org": "Carhartt",
-  "sector": "Retail & media",
-  "incident": "Breach of 12.9M customer records (ShinyHunters claimed twice that)",
-  "cause": "Attack",
-  "severity": 3,
-  "severity_note": "Large consumer dataset",
-  "source": "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-in-august-2026",
-  "flag": "Attacker claim was 2x the confirmed count"
- },
- {
-  "date": "2026-08-26",
   "org": "Baylor Genetics",
   "sector": "Healthcare & energy",
   "incident": "Medical data of 2.8M people exposed",
@@ -86,6 +75,17 @@
   "severity_note": "Sensitive data, mid-size",
   "source": "https://www.kcra.com/article/baylor-genetics-medical-data-breach/73534860",
   "flag": ""
+ },
+ {
+  "date": "2026-08-26",
+  "org": "Carhartt",
+  "sector": "Retail & media",
+  "incident": "Breach of 12.9M customer records (ShinyHunters claimed twice that)",
+  "cause": "Attack",
+  "severity": 3,
+  "severity_note": "Large consumer dataset",
+  "source": "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-in-august-2026",
+  "flag": "Attacker claim was 2x the confirmed count"
  },
  {
   "date": "2026-08-27",
@@ -210,17 +210,6 @@
  },
  {
   "date": "2026-09-08",
-  "org": "NATS (UK air traffic control)",
-  "sector": "Aviation & transport",
-  "incident": "Legacy software defect corrupted flight data at London Area Control; 2,000+ flights delayed, cancelled or diverted",
-  "cause": "Spoof-Error",
-  "severity": 4,
-  "severity_note": "National airspace, one full day",
-  "source": "https://www.nats.aero/wp-content/uploads/2026/09/NATS-Preliminary-Investigation-Report-into-NAS-Incident-on-08-Sept-2026-Issued-16-Sept-2026.pdf",
-  "flag": ""
- },
- {
-  "date": "2026-09-08",
   "org": "Airline APIS database",
   "sector": "Aviation & transport",
   "incident": "220M passenger and crew records exposed (nine years of data)",
@@ -229,6 +218,17 @@
   "severity_note": "Huge dataset; mechanism unclear",
   "source": "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026",
   "flag": "Exposure mechanism (hack vs misconfiguration) not clear"
+ },
+ {
+  "date": "2026-09-08",
+  "org": "NATS (UK air traffic control)",
+  "sector": "Aviation & transport",
+  "incident": "Legacy software defect corrupted flight data at London Area Control; 2,000+ flights delayed, cancelled or diverted",
+  "cause": "Spoof-Error",
+  "severity": 4,
+  "severity_note": "National airspace, one full day",
+  "source": "https://www.nats.aero/wp-content/uploads/2026/09/NATS-Preliminary-Investigation-Report-into-NAS-Incident-on-08-Sept-2026-Issued-16-Sept-2026.pdf",
+  "flag": ""
  },
  {
   "date": "2026-09-10",
@@ -287,17 +287,6 @@
  },
  {
   "date": "2026-09-16",
-  "org": "Salesforce",
-  "sector": "SaaS & dev platforms",
-  "incident": "~7.5h global outage across all regions during Dreamforce (login/legacy auth path)",
-  "cause": "Unknown",
-  "severity": 4,
-  "severity_note": "Global CRM, most of a business day",
-  "source": "https://www.cio.com/article/4223037/salesforces-massive-outage-exposes-the-hidden-risks-of-cloud-dependencies.html",
-  "flag": "Blamed an 'external dependency failure' yet said no third-party infra issue; full RCA pending"
- },
- {
-  "date": "2026-09-16",
   "org": "CenterPoint Energy",
   "sector": "Healthcare & energy",
   "incident": "Cyberattack; customer names, billing details, partial SSNs stolen",
@@ -306,6 +295,17 @@
   "severity_note": "Utility customer data",
   "source": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
   "flag": ""
+ },
+ {
+  "date": "2026-09-16",
+  "org": "Salesforce",
+  "sector": "SaaS & dev platforms",
+  "incident": "~7.5h global outage across all regions during Dreamforce (login/legacy auth path)",
+  "cause": "Unknown",
+  "severity": 4,
+  "severity_note": "Global CRM, most of a business day",
+  "source": "https://www.cio.com/article/4223037/salesforces-massive-outage-exposes-the-hidden-risks-of-cloud-dependencies.html",
+  "flag": "Blamed an 'external dependency failure' yet said no third-party infra issue; full RCA pending"
  },
  {
   "date": "2026-09-18",
@@ -363,15 +363,15 @@
   "flag": "Unauthorised AI-agent behaviour, not a human attacker; category is a judgement call"
  },
  {
-  "date": "2026-09-28",
-  "org": "Renfe / Adif",
-  "sector": "Aviation & transport",
-  "incident": "Renfe breach via compromised Adif servers; names/emails, later possibly IDs and trips",
+  "date": "2026-09-27",
+  "org": "Citrix NetScaler ADC / Gateway",
+  "sector": "Security & supply chain",
+  "incident": "Zero-days CVE-2026-88771/88772 exploited since early September for root access and web shells; 100+ organisations hit (government, finance, legal)",
   "cause": "Attack",
-  "severity": 3,
-  "severity_note": "Spain rail; data scope disputed",
-  "source": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/09/renfe-investiga-un-incidente-de-ciberseguridad-vinculado-a-sistemas-externos-de-adif",
-  "flag": "Renfe said limited data; some outlets claimed 150M records"
+  "severity": 4,
+  "severity_note": "Espionage campaign, ~50k exposed appliances, dozens to 100+ victims",
+  "source": "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/",
+  "flag": ""
  },
  {
   "date": "2026-09-28",
@@ -383,6 +383,17 @@
   "severity_note": "Business systems only",
   "source": "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026",
   "flag": ""
+ },
+ {
+  "date": "2026-09-28",
+  "org": "Renfe / Adif",
+  "sector": "Aviation & transport",
+  "incident": "Renfe breach via compromised Adif servers; names/emails, later possibly IDs and trips",
+  "cause": "Attack",
+  "severity": 3,
+  "severity_note": "Spain rail; data scope disputed",
+  "source": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/09/renfe-investiga-un-incidente-de-ciberseguridad-vinculado-a-sistemas-externos-de-adif",
+  "flag": "Renfe said limited data; some outlets claimed 150M records"
  },
  {
   "date": "2026-09-29",
@@ -463,17 +474,6 @@
  },
  {
   "date": "2026-10-06",
-  "org": "Fortinet devices (FortiBleed)",
-  "sector": "Security & supply chain",
-  "incident": "FBI/USSS warn credential campaign controls 86k firewalls; owners locked out",
-  "cause": "Attack",
-  "severity": 3,
-  "severity_note": "Global edge devices",
-  "source": "https://socradar.io/blog/major-cyber-attacks-october-2026/",
-  "flag": ""
- },
- {
-  "date": "2026-10-06",
   "org": "ASOS",
   "sector": "Retail & media",
   "incident": "Breach revealed via 'HACKED' in-app notifications; more data taken than first said",
@@ -481,6 +481,17 @@
   "severity": 3,
   "severity_note": "Large retailer, customer data",
   "source": "https://www.cm-alliance.com/cybersecurity-blog/biggest-cyber-attacks-data-breaches-ransomware-attacks-october-2026",
+  "flag": ""
+ },
+ {
+  "date": "2026-10-06",
+  "org": "Fortinet devices (FortiBleed)",
+  "sector": "Security & supply chain",
+  "incident": "FBI/USSS warn credential campaign controls 86k firewalls; owners locked out",
+  "cause": "Attack",
+  "severity": 3,
+  "severity_note": "Global edge devices",
+  "source": "https://socradar.io/blog/major-cyber-attacks-october-2026/",
   "flag": ""
  },
  {
@@ -518,17 +529,6 @@
  },
  {
   "date": "2026-10-08",
-  "org": "Comcast",
-  "sector": "Telecom",
-  "incident": "Outage affecting partners in 13 countries for 1h21m",
-  "cause": "Unknown",
-  "severity": 2,
-  "severity_note": "Partial",
-  "source": "https://www.networkworld.com/article/4113326/2026-network-outage-report-and-internet-health-check.html",
-  "flag": ""
- },
- {
-  "date": "2026-10-08",
   "org": "Arizona courts",
   "sector": "Government & defense",
   "incident": "Hackers stole data on 1.3M people",
@@ -536,6 +536,17 @@
   "severity": 2,
   "severity_note": "State courts",
   "source": "https://www.cm-alliance.com/cybersecurity-blog/biggest-cyber-attacks-data-breaches-ransomware-attacks-october-2026",
+  "flag": ""
+ },
+ {
+  "date": "2026-10-08",
+  "org": "Comcast",
+  "sector": "Telecom",
+  "incident": "Outage affecting partners in 13 countries for 1h21m",
+  "cause": "Unknown",
+  "severity": 2,
+  "severity_note": "Partial",
+  "source": "https://www.networkworld.com/article/4113326/2026-network-outage-report-and-internet-health-check.html",
   "flag": ""
  },
  {
@@ -606,6 +617,17 @@
  },
  {
   "date": "2026-10-16",
+  "org": "Burger King Japan",
+  "sector": "Retail & media",
+  "incident": "11M customer records exposed",
+  "cause": "Attack",
+  "severity": 3,
+  "severity_note": "Large dataset",
+  "source": "https://www.cm-alliance.com/cybersecurity-blog/biggest-cyber-attacks-data-breaches-ransomware-attacks-october-2026",
+  "flag": ""
+ },
+ {
+  "date": "2026-10-16",
   "org": "ENAV (Italian ATC)",
   "sector": "Aviation & transport",
   "incident": "Data-network fault cut Italian ATC capacity to ~50%; 192 cancellations",
@@ -616,14 +638,14 @@
   "flag": ""
  },
  {
-  "date": "2026-10-16",
-  "org": "Burger King Japan",
+  "date": "2026-10-19",
+  "org": "Ahold Delhaize",
   "sector": "Retail & media",
-  "incident": "11M customer records exposed",
+  "incident": "Cyberattack took websites/apps offline across EU and US grocery brands; Q4 hit up to EUR 250M",
   "cause": "Attack",
-  "severity": 3,
-  "severity_note": "Large dataset",
-  "source": "https://www.cm-alliance.com/cybersecurity-blog/biggest-cyber-attacks-data-breaches-ransomware-attacks-october-2026",
+  "severity": 4,
+  "severity_note": "Multinational, days, revenue hit",
+  "source": "https://therecord.media/ahold-delhaize-cyberattack-grocery",
   "flag": ""
  },
  {
@@ -636,17 +658,6 @@
   "severity_note": "Web-wide trust break; patch scramble",
   "source": "https://blog.cloudflare.com/emudhra-certificate-compromise",
   "flag": "Described as 'compromised'; whether keys were exploited in the wild is still being tracked"
- },
- {
-  "date": "2026-10-19",
-  "org": "Ahold Delhaize",
-  "sector": "Retail & media",
-  "incident": "Cyberattack took websites/apps offline across EU and US grocery brands; Q4 hit up to EUR 250M",
-  "cause": "Attack",
-  "severity": 4,
-  "severity_note": "Multinational, days, revenue hit",
-  "source": "https://therecord.media/ahold-delhaize-cyberattack-grocery",
-  "flag": ""
  },
  {
   "date": "2026-10-19",
@@ -671,6 +682,17 @@
   "flag": "Root cause is a power/facility failure, not config; filed under Spoof-Error as a non-malicious technical fault"
  },
  {
+  "date": "2026-10-21",
+  "org": "PHP (PHP2Shell)",
+  "sector": "Security & supply chain",
+  "incident": "Emergency patch for two unauthenticated RCE flaws (CVE-2026-109618/109619) in PHP 5.4–8.5.11; probing from Oct 17, confirmed RCE in the wild, CISA KEV Oct 26",
+  "cause": "Attack",
+  "severity": 4,
+  "severity_note": "Affects most PHP web servers; mass scanning and confirmed exploitation",
+  "source": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+  "flag": ""
+ },
+ {
   "date": "2026-10-22",
   "org": "Capcom",
   "sector": "Retail & media",
@@ -679,6 +701,17 @@
   "severity": 3,
   "severity_note": "Large dataset",
   "source": "https://socradar.io/blog/major-cyber-attacks-october-2026/",
+  "flag": ""
+ },
+ {
+  "date": "2026-10-22",
+  "org": "Quest Diagnostics",
+  "sector": "Healthcare & energy",
+  "incident": "Unauthorised access to Quanum lab-ordering system; patient records taken (8-K)",
+  "cause": "Attack",
+  "severity": 3,
+  "severity_note": "Major US lab; health data; scope unknown",
+  "source": "https://techcrunch.com/2026/10/23/lab-testing-giant-quest-diagnostics-confirms-patients-personal-and-health-data-was-compromised-during-breach/",
   "flag": ""
  },
  {
@@ -704,26 +737,26 @@
   "flag": ""
  },
  {
-  "date": "2026-10-29",
-  "org": "Binance",
-  "sector": "Banking & finance",
-  "incident": "$6.3B hot-wallet theft, largest crypto heist ever; FBI attributes to North Korea",
+  "date": "2026-10-28",
+  "org": "Japan Airlines (via Amadeus PSS)",
+  "sector": "Aviation & transport",
+  "incident": "Unauthorised access to Amadeus passenger system exposed reservation data of ~92,000 JAL/JTA customers, passports for ~2,000",
   "cause": "Attack",
-  "severity": 5,
-  "severity_note": "Record financial loss",
-  "source": "https://apnews.com/article/binance-crypto-hack-north-korea-fbi-883f18140c1e21ce0c38781e72cbe315",
+  "severity": 3,
+  "severity_note": "Third-party airline IT; more carriers may disclose",
+  "source": "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents",
   "flag": ""
  },
  {
-  "date": "2026-10-29",
-  "org": "Polymarket",
-  "sector": "Banking & finance",
-  "incident": "Compromised DebugBear script hijacked sessions; trading halted, $2.5M traced",
-  "cause": "Attack",
+  "date": "2026-10-28",
+  "org": "US DHS (ICE, CBP, HSI)",
+  "sector": "Government & defense",
+  "incident": "Records of 41,000+ DHS staff, incl. undercover-programme group memberships, published by DDoSecrets ('Icepick')",
+  "cause": "Unknown",
   "severity": 3,
-  "severity_note": "Platform halt, user losses",
-  "source": "https://therecord.media/polymarket-confirms-cyberattack-third-party",
-  "flag": ""
+  "severity_note": "Sensitive law-enforcement identities",
+  "source": "https://www.theguardian.com/us-news/2026/oct/28/homeland-security-data-leak",
+  "flag": "Activists call it a hack; how the data was obtained has not been officially confirmed"
  },
  {
   "date": "2026-10-29",
@@ -749,6 +782,17 @@
  },
  {
   "date": "2026-10-29",
+  "org": "Binance",
+  "sector": "Banking & finance",
+  "incident": "$6.3B hot-wallet theft, largest crypto heist ever; FBI attributes to North Korea",
+  "cause": "Attack",
+  "severity": 5,
+  "severity_note": "Record financial loss",
+  "source": "https://apnews.com/article/binance-crypto-hack-north-korea-fbi-883f18140c1e21ce0c38781e72cbe315",
+  "flag": ""
+ },
+ {
+  "date": "2026-10-29",
   "org": "Florida student aid",
   "sector": "Government & defense",
   "incident": "Up to 4.9M people's SSNs exposed",
@@ -756,6 +800,39 @@
   "severity": 3,
   "severity_note": "Sensitive PII",
   "source": "https://socradar.io/blog/major-cyber-attacks-october-2026/",
+  "flag": ""
+ },
+ {
+  "date": "2026-10-29",
+  "org": "Polymarket",
+  "sector": "Banking & finance",
+  "incident": "Compromised DebugBear script hijacked sessions; trading halted, $2.5M traced",
+  "cause": "Attack",
+  "severity": 3,
+  "severity_note": "Platform halt, user losses",
+  "source": "https://therecord.media/polymarket-confirms-cyberattack-third-party",
+  "flag": ""
+ },
+ {
+  "date": "2026-10-30",
+  "org": "Check Point Security Gateways",
+  "sector": "Security & supply chain",
+  "incident": "PHP2Shell + Gaia zero-day (CVE-2026-123039) chain used to root unpatched gateways; ESXi wiper at Israeli orgs, second wave Nov 2",
+  "cause": "Attack",
+  "severity": 3,
+  "severity_note": "A couple dozen systems, destructive in some cases",
+  "source": "https://blog.checkpoint.com/security/security-advisory-active-exploitation-of-php2shell-and-local-privilege-escalation/",
+  "flag": "Check Point says possible false flag; attribution unclear"
+ },
+ {
+  "date": "2026-11-02",
+  "org": "Chainalysis",
+  "sector": "Security & supply chain",
+  "incident": "Attackers using 'offensive agentic techniques' reached internal tools; later update: credentials and live tokens for all users exposed",
+  "cause": "Attack",
+  "severity": 3,
+  "severity_note": "Blockchain-forensics platform used by law enforcement",
+  "source": "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
   "flag": ""
  },
  {
@@ -781,6 +858,39 @@
   "flag": ""
  },
  {
+  "date": "2026-11-06",
+  "org": "DigiCert",
+  "sector": "Security & supply chain",
+  "incident": "Certificate authority: a 2025 server-migration mistake exposed an internal system; unauthorised access to archived customer data and ID documents (Jun 27–Jul 2)",
+  "cause": "Attack",
+  "severity": 3,
+  "severity_note": "CA customer ID documents; certificates unaffected",
+  "source": "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097",
+  "flag": "Root cause was a configuration error left open for 16 months"
+ },
+ {
+  "date": "2026-11-09",
+  "org": "Nitori",
+  "sector": "Retail & media",
+  "incident": "Japanese furniture retailer says up to 37.62M customer records may have been stolen; access blocked Nov 6",
+  "cause": "Attack",
+  "severity": 3,
+  "severity_note": "Very large consumer dataset",
+  "source": "https://japanir.jp/en/company/company-9843/ir/9843-20261109-01_wp_disclosure_update/",
+  "flag": ""
+ },
+ {
+  "date": "2026-11-09",
+  "org": "Vanderbilt University",
+  "sector": "Government & defense",
+  "incident": "Active cyberattack, campus told to shut down devices; BYOD ransomware gang claims 1M+ SSNs",
+  "cause": "Attack",
+  "severity": 3,
+  "severity_note": "Days of disruption; data claim unverified",
+  "source": "https://news.vanderbilt.edu/2026/11/09/nov-9-active-cybersecurity-incident-updates/",
+  "flag": "Ransomware gang's data claims not confirmed by the university"
+ },
+ {
   "date": "2026-11-10",
   "org": "AT&T (backbone)",
   "sector": "Telecom",
@@ -793,6 +903,17 @@
  },
  {
   "date": "2026-11-11",
+  "org": "Maersk",
+  "sector": "Aviation & transport",
+  "incident": "Data extracted from an inherited legacy logistics system; WhiteArmor ransomware claims 100GB, demands $5M",
+  "cause": "Attack",
+  "severity": 2,
+  "severity_note": "Operations unaffected",
+  "source": "https://www.maersk.com/news/articles/2026/11/11/it-security-incident",
+  "flag": ""
+ },
+ {
+  "date": "2026-11-11",
   "org": "Rakuten Securities",
   "sector": "Banking & finance",
   "incident": "Test-environment leak: IDs for up to 11.25M accounts, personal data for 4.47M (found Nov 16)",
@@ -801,6 +922,17 @@
   "severity_note": "Major brokerage, millions",
   "source": "https://www3.nhk.or.jp/nhkworld/news/20261117de77429/",
   "flag": ""
+ },
+ {
+  "date": "2026-11-12",
+  "org": "CSC Telecom (Latvia)",
+  "sector": "Telecom",
+  "incident": "Publicly accessible database exposed 125M+ SMS (bank one-time codes, medical results) sent 2022–2026 across the Baltics",
+  "cause": "Spoof-Error",
+  "severity": 3,
+  "severity_note": "Massive exposure of OTPs; malicious access unconfirmed",
+  "source": "https://news.err.ee/1610193241/potential-csc-telecom-leak-exposes-125-million-text-messages-across-baltics",
+  "flag": "Exposure, not a confirmed theft; police investigating"
  },
  {
   "date": "2026-11-12",
@@ -859,13 +991,13 @@
  },
  {
   "date": "2026-11-16",
-  "org": "Optimizely (Web Experimentation)",
+  "org": "Infoblox",
   "sector": "Security & supply chain",
-  "incident": "Signup flaw let attacker inject skimmer/crypto-swapper/iOS exploit loader into 178 orgs' sites (BBC, CNN, Zoom, HSBC, Salesforce)",
+  "incident": "Hackers accessed company information via a SharePoint-migration vendor",
   "cause": "Attack",
-  "severity": 4,
-  "severity_note": "Supply chain across 178 major sites, ~19h",
-  "source": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/",
+  "severity": 3,
+  "severity_note": "Security vendor, customer data",
+  "source": "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/",
   "flag": ""
  },
  {
@@ -881,6 +1013,17 @@
  },
  {
   "date": "2026-11-16",
+  "org": "Optimizely (Web Experimentation)",
+  "sector": "Security & supply chain",
+  "incident": "Signup flaw let attacker inject skimmer/crypto-swapper/iOS exploit loader into 178 orgs' sites (BBC, CNN, Zoom, HSBC, Salesforce)",
+  "cause": "Attack",
+  "severity": 4,
+  "severity_note": "Supply chain across 178 major sites, ~19h",
+  "source": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/",
+  "flag": ""
+ },
+ {
+  "date": "2026-11-16",
   "org": "United Airlines",
   "sector": "Aviation & transport",
   "incident": "Pilot tools lost weight-and-balance data; departures delayed 30-90 min",
@@ -891,14 +1034,25 @@
   "flag": "Not cyber, per United; cause undisclosed"
  },
  {
-  "date": "2026-11-16",
-  "org": "Infoblox",
-  "sector": "Security & supply chain",
-  "incident": "Hackers accessed company information via a SharePoint-migration vendor",
-  "cause": "Attack",
-  "severity": 3,
-  "severity_note": "Security vendor, customer data",
-  "source": "https://techcrunch.com/2026/11/16/cyber-giant-infoblox-confirms-security-incident-after-hackers-access-company-information/",
+  "date": "2026-11-17",
+  "org": "Apple (iCloud, Apple Account, App Store, Apple Pay, stores)",
+  "sector": "SaaS & dev platforms",
+  "incident": "Sign-in and services down from ~11:45 ET; retail stores couldn't sell",
+  "cause": "Spoof-Error",
+  "severity": 4,
+  "severity_note": "Hundreds of millions of users, hours",
+  "source": "https://www.macrumors.com/2026/11/17/apple-outage-internal-update/",
+  "flag": "Only 'an internal update' given"
+ },
+ {
+  "date": "2026-11-17",
+  "org": "Marriott",
+  "sector": "Retail & media",
+  "incident": "Website and Bonvoy app login/booking outage",
+  "cause": "Unknown",
+  "severity": 2,
+  "severity_note": "Hours",
+  "source": "https://gulfnews.com/world/americas/marriott-website-and-app-hit-by-reported-outage-disrupting-hotel-bookings-1.500751023",
   "flag": ""
  },
  {
@@ -911,17 +1065,6 @@
   "severity_note": "Top intelligence agency; mission ops maintained",
   "source": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/",
   "flag": "Agency says 'scheduled routine maintenance'; WaPo says reasons unclear"
- },
- {
-  "date": "2026-11-17",
-  "org": "Apple (iCloud, Apple Account, App Store, Apple Pay, stores)",
-  "sector": "SaaS & dev platforms",
-  "incident": "Sign-in and services down from ~11:45 ET; retail stores couldn't sell",
-  "cause": "Spoof-Error",
-  "severity": 4,
-  "severity_note": "Hundreds of millions of users, hours",
-  "source": "https://www.macrumors.com/2026/11/17/apple-outage-internal-update/",
-  "flag": "Only 'an internal update' given"
  },
  {
   "date": "2026-11-17",
@@ -943,17 +1086,6 @@
   "severity": 2,
   "severity_note": "Short; radio unaffected",
   "source": "https://www.ksnt.com/news/kansas/did-the-national-weather-service-website-crash-tuesday/",
-  "flag": ""
- },
- {
-  "date": "2026-11-17",
-  "org": "Marriott",
-  "sector": "Retail & media",
-  "incident": "Website and Bonvoy app login/booking outage",
-  "cause": "Unknown",
-  "severity": 2,
-  "severity_note": "Hours",
-  "source": "https://gulfnews.com/world/americas/marriott-website-and-app-hit-by-reported-outage-disrupting-hotel-bookings-1.500751023",
   "flag": ""
  }
 ]
